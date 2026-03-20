@@ -1,12 +1,11 @@
 import React from "react";
 import Card from "./components/card";
-import ironman from "./assets/tonystark.jpg"
-import PeterParker from "./assets/PeterParker.jpg"
+
 
 const App = () => {
   const CardInfo = [
   {
-    "profilePicture": ironman,
+    "profilePicture": "https://example.com/captainamerica.jpg",
     "fullName": "Tony Stark",
     "bio": "Genius billionaire in a high-tech suit saving the world 🦾",
     "likes": 980000,
@@ -14,7 +13,7 @@ const App = () => {
     "views": 12000000
   },
   {
-    "profilePicture": PeterParker,
+    "profilePicture": "https://example.com/captainamerica.jpg",
     "fullName": "Peter Parker",
     "bio": "Friendly neighborhood hero with spider powers 🕷️",
     "likes": 870000,
