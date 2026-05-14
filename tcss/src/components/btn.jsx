@@ -1,8 +1,10 @@
 import React from "react";
 
-const Btn = (c) => {
+const Btn = () => {
   return (
-   <div className="w-fit text-lg font-bold bg-emerald-700 px-5 py-3 rounded m-2 text-white">{c.text}</div>
+   <button className="py-4 px-3 rounded m-5 bg-emerald-500 hover:bg-emerald-600">
+          Submit
+        </button>
   );
 };
 
